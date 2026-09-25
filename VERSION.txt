@@ -1,0 +1,3 @@
+Controle de Liberação de Frentes - V45
+Base preservada; correções estruturais de interação e liberação.
+Planilhas: TFA_Terraplenagem | Contenção | OS
