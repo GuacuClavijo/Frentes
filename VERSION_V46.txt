@@ -1,3 +1,0 @@
-Controle de Liberação de Frentes — V46 COMPLETA
-Base: GuacuClavijo/Frentes
-7 faixas; TFA/Terraplenagem; Contenção; OS/OAE; Pan; zoom; status; transparência.
