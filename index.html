@@ -9,6 +9,12 @@
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="icon" href="icon.svg">
 <link rel="stylesheet" href="app.css?v=39">
+
+<style id="v40-adjustments">
+.chart-side-label{position:absolute;left:8px;z-index:20;font-weight:800;font-size:12px;color:#334155;writing-mode:vertical-rl;transform:rotate(180deg);pointer-events:none}
+.chart-side-label.le{top:10px}.chart-side-label.ld{bottom:10px}
+.release-terra,.terra-release,.release-area.terra{opacity:.58!important}
+</style>
 </head>
 <body>
 <header class="header">
@@ -43,7 +49,7 @@
   </section>
 
   <section class="graph-card">
-    <div class="graph-head">
+    <div class="graph-head"><div class="chart-side-label le">LE</div><div class="chart-side-label ld">LD</div>
       <div><div class="eyebrow">REPRESENTAÇÃO LINEAR</div><h2 id="graphTitle">Distribuição das frentes</h2><span id="count" class="count">318 frentes</span></div>
       <div class="segments" id="segments"></div>
     </div>
